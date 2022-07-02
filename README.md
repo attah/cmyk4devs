@@ -1,8 +1,15 @@
 # cmyk4devs
 
+I found most CMYK explanations and conversion algorithms unintuitive and over-complicated, so i made my own. Targeted at people who think in computer terms.
+
 ## A visual representation of CMYK vs RGB
 
 ![](cmyk.svg)
+
+## But what does CMYK do?
+
+CMYK replaces the part of the total color that would cancel out into black with actual black.
+This is the native format when printing (effectively subtracting color from white paper) and helps with waste/cost and quality.
 
 ## The rant section
 
