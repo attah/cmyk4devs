@@ -17,7 +17,7 @@ buildSvgFile("cmyk.svg"):
 
   let color = rgb(red, green, blue)
 
-  svg(width=455, height=555):
+  svg(width=455, height=575):
     rect(x=20, y=20, width=60, height=60, fill=($color))
     text(x=100, y=50, `font-family`="monospace", `text-anchor`="start"):
         t $color
@@ -68,35 +68,37 @@ buildSvgFile("cmyk.svg"):
     text(x=100+0xff-white, y=100, `font-family`="monospace", `text-anchor`="start"):
         t "&#x2190; W: 0x"&white.tohex(2)
 
-    text(x=455/6*1, y=425, `font-family`="monospace", `text-anchor`="middle"):
+    let linespacing = 30
+
+    text(x=455/6*1, y=400+linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "R: 0xff-C' = 0x"&red.toHex(2)
-    text(x=455/6*3, y=425, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*3, y=400+linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "G: 0xff-M' = 0x"&green.toHex(2)
-    text(x=455/6*5, y=425, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*5, y=400+linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "B: 0xff-Y' = 0x"&blue.toHex(2)
 
-    text(x=455/2, y=450, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/2, y=400+2*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "W: max(R, G, B) = 0xff-K = 0x"&white.toHex(2)
 
-    text(x=455/6*1, y=475, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*1, y=400+3*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "C': 0xff-R = 0x"&cprime.toHex(2)
-    text(x=455/6*3, y=475, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*3, y=400+3*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "M': 0xff-G = 0x"&mprime.toHex(2)
-    text(x=455/6*5, y=475, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*5, y=400+3*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "Y': 0xff-B = 0x"&yprime.toHex(2)
 
-    text(x=455/2, y=500, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/2, y=400+4*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "K: min(C', M', Y') = 0xff-W = 0x"&black.toHex(2)
 
-    text(x=455/6*1, y=525, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*1, y=400+5*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "C: C'-K = W-R"
-    text(x=455/6*1, y=540, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*1, y=400+5*linespacing+17, `font-family`="monospace", `text-anchor`="middle"):
         t "= 0x"&cyan.toHex(2)
-    text(x=455/6*3, y=525, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*3, y=400+5*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "M: M'-K = W-G"
-    text(x=455/6*3, y=540, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*3, y=400+5*linespacing+17, `font-family`="monospace", `text-anchor`="middle"):
         t "= 0x"&magenta.toHex(2)
-    text(x=455/6*5, y=525, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*5, y=400+5*linespacing, `font-family`="monospace", `text-anchor`="middle"):
         t "Y: Y'-K = W-B"
-    text(x=455/6*5, y=540, `font-family`="monospace", `text-anchor`="middle"):
+    text(x=455/6*5, y=400+5*linespacing+17, `font-family`="monospace", `text-anchor`="middle"):
         t "= 0x"&yellow.toHex(2)
