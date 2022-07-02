@@ -6,7 +6,7 @@
 
 ## The rant section
 
-For some reason most examples of converting RGB to CMYK tesnds to add re-scaling from 0..255 to 0..1 sprinkled in thoughout the conversion equation iself:
+For some reason most examples of converting RGB to CMYK tends to add re-scaling from 0..255 to 0..1 sprinkled in throughout the conversion equation/algorithm itself:
 
 `K=1-max(R/255,G/255,B/255)`
 
@@ -14,7 +14,7 @@ This just adds noise and confusion.
 
 Some don't even minimize their equations and waste performance/complexity:
 
-`C=(1-G/255-K)/(1-K)`
+`C=(1-R/255-K)/(1-K)`
 
 The result may be correct for some representation, but is utterly unhelpful when converting RGB24 to CMYK32 or just trying to read it the first time.
 Either keep the explanation full-on math and represent your RGB in 0..1 too, or stay in bytes. Don't mix and match.
@@ -44,5 +44,5 @@ M = W - G
 Y = W - B
 
 K = 255 - W
-// 4 subtractions and a 3-way maxumum
+// 4 subtractions and a 3-way maximum
 ```
