@@ -35,19 +35,32 @@ buildSvgFile("cmyk.svg"):
 
     line(x1=100+0xff-0x99, y1=100, x2=100+0xff-0x99, y2=400, stroke="black", `stroke-width`=1, `stroke-dasharray`=5)
 
-    text(x=90, y=150, `font-family`="monospace", `text-anchor`="end"):
-        t "C': #00ffff"
-    text(x=90, y=250, `font-family`="monospace", `text-anchor`="end"):
-        t "M': #ff00ff"
-    text(x=90, y=350, `font-family`="monospace", `text-anchor`="end"):
-        t "Y': #ffff00"
+    text(x=50, y=140, `font-family`="monospace", `text-anchor`="middle"):
+        t "C': 0x"&cprime.toHex(2)
+    text(x=50, y=160, `font-family`="monospace", `text-anchor`="middle"):
+        t "#00ffff"
+    text(x=50, y=240, `font-family`="monospace", `text-anchor`="middle"):
+        t "M': 0x"&mprime.toHex(2)
+    text(x=50, y=260, `font-family`="monospace", `text-anchor`="middle"):
+        t "#ff00ff"
+    text(x=50, y=340, `font-family`="monospace", `text-anchor`="middle"):
+        t "Y': 0x"&yprime.toHex(2)
+    text(x=50, y=360, `font-family`="monospace", `text-anchor`="middle"):
+        t "#ffff00"
 
-    text(x=365, y=150, `font-family`="monospace", `text-anchor`="start"):
-        t "R: #ff0000"
-    text(x=365, y=250, `font-family`="monospace", `text-anchor`="start"):
-        t "G: #00ff00"
-    text(x=365, y=350, `font-family`="monospace", `text-anchor`="start"):
-        t "B: #0000ff"
+
+    text(x=405, y=140, `font-family`="monospace", `text-anchor`="middle"):
+        t "R: 0x"&red.toHex(2)
+    text(x=405, y=160, `font-family`="monospace", `text-anchor`="middle"):
+        t "#ff0000"
+    text(x=405, y=240, `font-family`="monospace", `text-anchor`="middle"):
+        t "G: 0x"&green.toHex(2)
+    text(x=405, y=260, `font-family`="monospace", `text-anchor`="middle"):
+        t "#00ff00"
+    text(x=405, y=340, `font-family`="monospace", `text-anchor`="middle"):
+        t "B: 0x"&blue.toHex(2)
+    text(x=405, y=360, `font-family`="monospace", `text-anchor`="middle"):
+        t "#0000ff"
 
     text(x=100+black, y=100, `font-family`="monospace", `text-anchor`="end"):
         t "K: 0x"&black.tohex(2)&" &#x2192;"

@@ -14,23 +14,41 @@
   <line x1="100" y1="250" x2="236" y2="250" stroke="#ff00ff" stroke-width="4"/>
   <line x1="100" y1="350" x2="202" y2="350" stroke="#ffff00" stroke-width="4"/>
   <line x1="202" y1="100" x2="202" y2="400" stroke="black" stroke-width="1" stroke-dasharray="5"/>
-  <text x="90" y="150" font-family="monospace" text-anchor="end">
-    C': #00ffff
+  <text x="50" y="140" font-family="monospace" text-anchor="middle">
+    C': 0xAA
   </text>
-  <text x="90" y="250" font-family="monospace" text-anchor="end">
-    M': #ff00ff
+  <text x="50" y="160" font-family="monospace" text-anchor="middle">
+    #00ffff
   </text>
-  <text x="90" y="350" font-family="monospace" text-anchor="end">
-    Y': #ffff00
+  <text x="50" y="240" font-family="monospace" text-anchor="middle">
+    M': 0x88
   </text>
-  <text x="365" y="150" font-family="monospace" text-anchor="start">
-    R: #ff0000
+  <text x="50" y="260" font-family="monospace" text-anchor="middle">
+    #ff00ff
   </text>
-  <text x="365" y="250" font-family="monospace" text-anchor="start">
-    G: #00ff00
+  <text x="50" y="340" font-family="monospace" text-anchor="middle">
+    Y': 0x66
   </text>
-  <text x="365" y="350" font-family="monospace" text-anchor="start">
-    B: #0000ff
+  <text x="50" y="360" font-family="monospace" text-anchor="middle">
+    #ffff00
+  </text>
+  <text x="405" y="140" font-family="monospace" text-anchor="middle">
+    R: 0x55
+  </text>
+  <text x="405" y="160" font-family="monospace" text-anchor="middle">
+    #ff0000
+  </text>
+  <text x="405" y="240" font-family="monospace" text-anchor="middle">
+    G: 0x77
+  </text>
+  <text x="405" y="260" font-family="monospace" text-anchor="middle">
+    #00ff00
+  </text>
+  <text x="405" y="340" font-family="monospace" text-anchor="middle">
+    B: 0x99
+  </text>
+  <text x="405" y="360" font-family="monospace" text-anchor="middle">
+    #0000ff
   </text>
   <text x="202" y="100" font-family="monospace" text-anchor="end">
     K: 0x66 &#x2192;
