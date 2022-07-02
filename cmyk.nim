@@ -17,7 +17,7 @@ buildSvgFile("cmyk.svg"):
 
   let color = rgb(red, green, blue)
 
-  svg(width=455, height=550):
+  svg(width=455, height=555):
     rect(x=20, y=20, width=60, height=60, fill=($color))
     text(x=100, y=50, `font-family`="monospace", `text-anchor`="start"):
         t $color
@@ -76,8 +76,14 @@ buildSvgFile("cmyk.svg"):
         t "K: min(C', M', Y') = 0xff-W = 0x"&black.toHex(2)
 
     text(x=455/6*1, y=525, `font-family`="monospace", `text-anchor`="middle"):
-        t "C: C'-K = 0x"&cyan.toHex(2)
+        t "C: C'-K = W-R"
+    text(x=455/6*1, y=540, `font-family`="monospace", `text-anchor`="middle"):
+        t "= 0x"&cyan.toHex(2)
     text(x=455/6*3, y=525, `font-family`="monospace", `text-anchor`="middle"):
-        t "M: M'-K = 0x"&magenta.toHex(2)
+        t "M: M'-K = W-G"
+    text(x=455/6*3, y=540, `font-family`="monospace", `text-anchor`="middle"):
+        t "= 0x"&magenta.toHex(2)
     text(x=455/6*5, y=525, `font-family`="monospace", `text-anchor`="middle"):
-        t "Y: Y'-K = 0x"&yellow.toHex(2)
+        t "Y: Y'-K = W-B"
+    text(x=455/6*5, y=540, `font-family`="monospace", `text-anchor`="middle"):
+        t "= 0x"&yellow.toHex(2)
