@@ -17,7 +17,7 @@ buildSvgFile("cmyk.svg"):
 
   let color = rgb(red, green, blue)
 
-  svg(width=455, height=575):
+  svg(width=455, height=575, style="background-color:white"):
     rect(x=20, y=20, width=60, height=60, fill=($color))
     text(x=100, y=50, `font-family`="monospace", `text-anchor`="start"):
         t $color
