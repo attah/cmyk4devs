@@ -6,6 +6,8 @@ I found most CMYK explanations and conversion algorithms unintuitive and over-co
 
 ![](cmyk.svg)
 
+Note: W here has no relation to RGBW, it is just the opposite of K since it is conveinient to calculate with.
+
 ## But what does CMYK do?
 
 CMYK replaces the part of the total color that would cancel out into black with actual black.
