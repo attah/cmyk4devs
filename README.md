@@ -6,8 +6,6 @@ I found most CMYK explanations and conversion algorithms unintuitive and over-co
 
 ![](cmyk.svg)
 
-Note: W here has no relation to RGBW, it is just the opposite of K since it is conveinient to calculate with.
-
 ## But what does CMYK do?
 
 CMYK replaces the part of the total color that would cancel out into black with actual black.
@@ -26,7 +24,7 @@ Some don't even minimize their equations and waste performance/complexity:
 `C=(1-R/255-K)/(1-K)`
 
 The result may be correct for some representation, but is utterly unhelpful when converting RGB24 to CMYK32 or just trying to read it the first time.
-Either keep the explanation full-on math and represent your RGB in 0..1 too, or stay in bytes. Don't mix and match.
+Either keep the explanation full-on math and represent your RGB in 0..1 too, or stay in binary. Don't mix and match.
 
 The one integer algorithm i found also wasted operations:
 
@@ -46,12 +44,12 @@ Y = Y' - K
 The former may be slightly more intuitive, but this is how it is done:
 
 ```
-W = max(R,G,B)
+K&#773; = max(R,G,B)
 
-C = W - R
-M = W - G
-Y = W - B
+C = K&#773; - R
+M = K&#773; - G
+Y = K&#773; - B
 
-K = 255 - W
+K = 255 - K&#773;
 // 4 subtractions and a 3-way maximum
 ```

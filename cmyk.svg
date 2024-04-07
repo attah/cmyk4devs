@@ -1,101 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="455" height="575" style="background-color:white" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <rect x="20" y="20" width="60" height="60" fill="#557799"/>
-  <text x="100" y="50" font-size="12" font-family="monospace" text-anchor="start">
-    #557799
+<svg width="500" height="560" style="background-color:white" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="31" y="20" width="60" height="60" fill="#557799"/>
+  <text x="250" y="50" font-size="12" font-family="monospace" text-anchor="middle">
+    #557799 ⇒ 0x44220066
   </text>
-  <line x1="100" y1="100" x2="100" y2="400" stroke="black" stroke-width="2"/>
-  <line x1="355" y1="100" x2="355" y2="400" stroke="black" stroke-width="2"/>
-  <line x1="355" y1="150" x2="270" y2="150" stroke="#ff0000" stroke-width="4"/>
-  <line x1="355" y1="250" x2="236" y2="250" stroke="#00ff00" stroke-width="4"/>
-  <line x1="355" y1="350" x2="202" y2="350" stroke="#0000ff" stroke-width="4"/>
-  <line x1="100" y1="150" x2="270" y2="150" stroke="#00ffff" stroke-width="4"/>
-  <line x1="100" y1="250" x2="236" y2="250" stroke="#ff00ff" stroke-width="4"/>
-  <line x1="100" y1="350" x2="202" y2="350" stroke="#ffff00" stroke-width="4"/>
-  <line x1="202" y1="100" x2="202" y2="400" stroke="black" stroke-width="1" stroke-dasharray="5"/>
-  <text x="50" y="140" font-size="12" font-family="monospace" text-anchor="middle">
+  <line x1="122" y1="100" x2="122" y2="400" stroke="black" stroke-width="2"/>
+  <line x1="377" y1="100" x2="377" y2="400" stroke="black" stroke-width="2"/>
+  <line x1="377" y1="150" x2="292" y2="150" stroke="#ff0000" stroke-width="4"/>
+  <line x1="377" y1="250" x2="258" y2="250" stroke="#00ff00" stroke-width="4"/>
+  <line x1="377" y1="350" x2="224" y2="350" stroke="#0000ff" stroke-width="4"/>
+  <line x1="122" y1="150" x2="292" y2="150" stroke="#00ffff" stroke-width="4"/>
+  <line x1="122" y1="250" x2="258" y2="250" stroke="#ff00ff" stroke-width="4"/>
+  <line x1="122" y1="350" x2="224" y2="350" stroke="#ffff00" stroke-width="4"/>
+  <line x1="224" y1="100" x2="224" y2="400" stroke="black" stroke-width="1" stroke-dasharray="5"/>
+  <text x="61" y="140" font-size="12" font-family="monospace" text-anchor="middle">
     C': 0xAA
   </text>
-  <text x="50" y="160" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="61" y="160" font-size="12" font-family="monospace" text-anchor="middle">
     #00ffff
   </text>
-  <text x="50" y="240" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="61" y="240" font-size="12" font-family="monospace" text-anchor="middle">
     M': 0x88
   </text>
-  <text x="50" y="260" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="61" y="260" font-size="12" font-family="monospace" text-anchor="middle">
     #ff00ff
   </text>
-  <text x="50" y="340" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="61" y="340" font-size="12" font-family="monospace" text-anchor="middle">
     Y': 0x66
   </text>
-  <text x="50" y="360" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="61" y="360" font-size="12" font-family="monospace" text-anchor="middle">
     #ffff00
   </text>
-  <text x="405" y="140" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="140" font-size="12" font-family="monospace" text-anchor="middle">
     R: 0x55
   </text>
-  <text x="405" y="160" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="160" font-size="12" font-family="monospace" text-anchor="middle">
     #ff0000
   </text>
-  <text x="405" y="240" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="240" font-size="12" font-family="monospace" text-anchor="middle">
     G: 0x77
   </text>
-  <text x="405" y="260" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="260" font-size="12" font-family="monospace" text-anchor="middle">
     #00ff00
   </text>
-  <text x="405" y="340" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="340" font-size="12" font-family="monospace" text-anchor="middle">
     B: 0x99
   </text>
-  <text x="405" y="360" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="438" y="360" font-size="12" font-family="monospace" text-anchor="middle">
     #0000ff
   </text>
-  <text x="202" y="100" font-size="12" font-family="monospace" text-anchor="end">
+  <text x="224" y="100" font-size="12" font-family="monospace" text-anchor="end">
     K: 0x66 &#x2192;
   </text>
-  <text x="202" y="100" font-size="12" font-family="monospace" text-anchor="start">
-    &#x2190; W: 0x99
+  <text x="224" y="100" font-size="12" font-family="monospace" text-anchor="start">
+    &#x2190; K&#773;: 0x99
   </text>
-  <text x="75.83333333333333" y="430" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="83.33333333333333" y="430" font-size="12" font-family="monospace" text-anchor="middle">
     R: 0xff-C' = 0x55
   </text>
-  <text x="227.5" y="430" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="250.0" y="430" font-size="12" font-family="monospace" text-anchor="middle">
     G: 0xff-M' = 0x77
   </text>
-  <text x="379.1666666666666" y="430" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="416.6666666666666" y="430" font-size="12" font-family="monospace" text-anchor="middle">
     B: 0xff-Y' = 0x99
   </text>
-  <text x="227.5" y="460" font-size="12" font-family="monospace" text-anchor="middle">
-    W: max(R, G, B) = 0xff-K = 0x99
+  <text x="250.0" y="460" font-size="12" font-family="monospace" text-anchor="middle">
+    K&#773;: max(R, G, B) = 0xff-K = 0x99
   </text>
-  <text x="75.83333333333333" y="490" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="83.33333333333333" y="490" font-size="12" font-family="monospace" text-anchor="middle">
     C': 0xff-R = 0xAA
   </text>
-  <text x="227.5" y="490" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="250.0" y="490" font-size="12" font-family="monospace" text-anchor="middle">
     M': 0xff-G = 0x88
   </text>
-  <text x="379.1666666666666" y="490" font-size="12" font-family="monospace" text-anchor="middle">
+  <text x="416.6666666666666" y="490" font-size="12" font-family="monospace" text-anchor="middle">
     Y': 0xff-B = 0x66
   </text>
-  <text x="227.5" y="520" font-size="12" font-family="monospace" text-anchor="middle">
-    K: min(C', M', Y') = 0xff-W = 0x66
+  <text x="250.0" y="520" font-size="12" font-family="monospace" text-anchor="middle">
+    K: min(C', M', Y') = 0xff-K&#773; = 0x66
   </text>
-  <text x="75.83333333333333" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    C: C'-K = W-R
+  <text x="83.33333333333333" y="550" font-size="12" font-family="monospace" text-anchor="middle">
+    C: C'-K = K&#773;-R = 0x44
   </text>
-  <text x="75.83333333333333" y="567" font-size="12" font-family="monospace" text-anchor="middle">
-    = 0x44
+  <text x="250.0" y="550" font-size="12" font-family="monospace" text-anchor="middle">
+    M: M'-K = K&#773;-G = 0x22
   </text>
-  <text x="227.5" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    M: M'-K = W-G
-  </text>
-  <text x="227.5" y="567" font-size="12" font-family="monospace" text-anchor="middle">
-    = 0x22
-  </text>
-  <text x="379.1666666666666" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    Y: Y'-K = W-B
-  </text>
-  <text x="379.1666666666666" y="567" font-size="12" font-family="monospace" text-anchor="middle">
-    = 0x00
+  <text x="416.6666666666666" y="550" font-size="12" font-family="monospace" text-anchor="middle">
+    Y: Y'-K = K&#773;-B = 0x00
   </text>
 </svg>
