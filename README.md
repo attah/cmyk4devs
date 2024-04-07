@@ -44,12 +44,12 @@ Y = Y' - K
 The former may be slightly more intuitive, but this is how it is done:
 
 ```
-K&#773; = max(R,G,B)
+K̅ = max(R,G,B)
 
-C = K&#773; - R
-M = K&#773; - G
-Y = K&#773; - B
+C = K̅ - R
+M = K̅ - G
+Y = K̅ - B
 
-K = 255 - K&#773;
+K = 255 - K̅
 // 4 subtractions and a 3-way maximum
 ```

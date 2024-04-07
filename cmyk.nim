@@ -71,7 +71,7 @@ buildSvgFile("cmyk.svg"):
         t "K: 0x"&black.tohex(2)&" &#x2192;"
 
     text(x=margin+0xff-white, y=100, `font-size`=12, `font-family`="monospace", `text-anchor`="start"):
-        t "&#x2190; K&#773;: 0x"&white.tohex(2)
+        t "&#x2190; K̅: 0x"&white.tohex(2)
 
     let linespacing = 30
 
@@ -83,7 +83,7 @@ buildSvgFile("cmyk.svg"):
         t "B: 0xff-Y' = 0x"&blue.toHex(2)
 
     text(x=width/2, y=400+2*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
-        t "K&#773;: max(R, G, B) = 0xff-K = 0x"&white.toHex(2)
+        t "K̅: max(R, G, B) = 0xff-K = 0x"&white.toHex(2)
 
     text(x=width/6*1, y=400+3*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
         t "C': 0xff-R = 0x"&cprime.toHex(2)
@@ -93,11 +93,11 @@ buildSvgFile("cmyk.svg"):
         t "Y': 0xff-B = 0x"&yprime.toHex(2)
 
     text(x=width/2, y=400+4*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
-        t "K: min(C', M', Y') = 0xff-K&#773; = 0x"&black.toHex(2)
+        t "K: min(C', M', Y') = 0xff-K̅ = 0x"&black.toHex(2)
 
     text(x=width/6*1, y=400+5*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
-        t "C: C'-K = K&#773;-R = 0x"&cyan.toHex(2)
+        t "C: C'-K = K̅-R = 0x"&cyan.toHex(2)
     text(x=width/6*3, y=400+5*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
-        t "M: M'-K = K&#773;-G = 0x"&magenta.toHex(2)
+        t "M: M'-K = K̅-G = 0x"&magenta.toHex(2)
     text(x=width/6*5, y=400+5*linespacing, `font-size`=12, `font-family`="monospace", `text-anchor`="middle"):
-        t "Y: Y'-K = K&#773;-B = 0x"&yellow.toHex(2)
+        t "Y: Y'-K = K̅-B = 0x"&yellow.toHex(2)

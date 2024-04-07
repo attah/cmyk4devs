@@ -54,7 +54,7 @@
     K: 0x66 &#x2192;
   </text>
   <text x="224" y="100" font-size="12" font-family="monospace" text-anchor="start">
-    &#x2190; K&#773;: 0x99
+    &#x2190; K̅: 0x99
   </text>
   <text x="83.33333333333333" y="430" font-size="12" font-family="monospace" text-anchor="middle">
     R: 0xff-C' = 0x55
@@ -66,7 +66,7 @@
     B: 0xff-Y' = 0x99
   </text>
   <text x="250.0" y="460" font-size="12" font-family="monospace" text-anchor="middle">
-    K&#773;: max(R, G, B) = 0xff-K = 0x99
+    K̅: max(R, G, B) = 0xff-K = 0x99
   </text>
   <text x="83.33333333333333" y="490" font-size="12" font-family="monospace" text-anchor="middle">
     C': 0xff-R = 0xAA
@@ -78,15 +78,15 @@
     Y': 0xff-B = 0x66
   </text>
   <text x="250.0" y="520" font-size="12" font-family="monospace" text-anchor="middle">
-    K: min(C', M', Y') = 0xff-K&#773; = 0x66
+    K: min(C', M', Y') = 0xff-K̅ = 0x66
   </text>
   <text x="83.33333333333333" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    C: C'-K = K&#773;-R = 0x44
+    C: C'-K = K̅-R = 0x44
   </text>
   <text x="250.0" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    M: M'-K = K&#773;-G = 0x22
+    M: M'-K = K̅-G = 0x22
   </text>
   <text x="416.6666666666666" y="550" font-size="12" font-family="monospace" text-anchor="middle">
-    Y: Y'-K = K&#773;-B = 0x00
+    Y: Y'-K = K̅-B = 0x00
   </text>
 </svg>
